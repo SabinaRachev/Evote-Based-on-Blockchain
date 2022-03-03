@@ -13,9 +13,13 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item to="/" >Home</b-nav-item>
-        <b-nav-item to="/getCurrentStanding">Get Poll Standings</b-nav-item>
         <span v-if="isLoggedIn">
+         <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav>
+          <b-nav-item to="/getCurrentStanding">Get Poll Standings</b-nav-item>
           <b-nav-item to="/createPoll">Create poll</b-nav-item>
+             </b-navbar-nav>
+         </b-collapse>
          </span> 
         <span v-if="name=='user'">
         <b-collapse id="nav-collapse" is-nav>
