@@ -4,6 +4,7 @@ This project was written as the final project for blockchain course.
 this is a web based voting system that utilize blockchain to allow users to register,login,create polls,vote for polls and get stats about the polls results. 
 
 **Featured technologies :**
+
 •	Hyperledger Fabric v2.0  
 
 •	IBM Blockchain Platform v2.0.5 for visual studio
@@ -31,11 +32,11 @@ The user can create a poll by pressing the create poll button in the top bar . W
 If the user wants he can also choose to create the poll private which means that all of the poll info will be saved encrypted on the blockchain via a specific key that the user inputs.
 
  
- <p align="center">
+ <div align="center">
   <img src="photoUploadFlow.png"  width="300" >
   <img src="createPoll1.png"  width="300" >
   <img src="createPoll2.png"  width="300">
-</p>
+</div>
 
 **Voting for a poll -**
 
