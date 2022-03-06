@@ -386,7 +386,7 @@ class MyAssetContract extends Contract {
         console.log(result);
 
         //make sure this voter cannot vote again! 
-        election.voters[voter.voterId]=args.picked;;
+        election.voters[voter.voterId]=1;;
 
         //update state to say that this voter has voted, and who they picked
         let response = await ctx.stub.putState(election.electionId, Buffer.from(JSON.stringify(election)));
